@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JEOPARDY</title>
+    <link rel="stylesheet" href="jeopardy_refactored.css">
+    <link rel="preload" href="GyparodyHv-Regular.woff2" as="font" type="font/woff2" crossorigin>
+</head>
+<div class="app">
+    <div className="title2">
+        <h1 className="jeopardy-title">
+            <span id="header" class="letter">J</span>
+            <span id="header" class="letter">E</span>
+            <span id="header" class="letter">O</span>
+            <span id="header" class="letter">P</span>
+            <span id="header" class="letter">A</span>
+            <span id="header" class="letter">R</span>
+            <span id="header" class="letter">D</span>
+            <span id="header" class="letter">Y</span>
+        </h1>
+        <p class="score">Score: <span id="score-count"> </span> </p>
+    </div>
+
+    <body>
+        <div id="board">
+        </div>
+
+        <div id="card-modal">
+            <div id="card-modal-inner">
+                <h2 id="clue-text"></h2>
+                <form id="form" autocomplete="off">
+                    <input id="user-answer" type="text" />
+                    <button type="submit">Answer</button>
+                </form>
+                <div id="result">
+                    <p id="result_success">CORRECT</p>
+                    <p id="result_fail">INCORRECT</p>
+                    <p id="result_correct-answer">
+                        The correct answer is: <span id="result_correct-answer-text"></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <div id="restart-button">
+            <button>NEW GAME</button>
+        </div>
+
+</div>
+
+<script src="http://unpkg.com/jquery"></script>
+<script src="http://unpkg.com/axios/dist/axios.js"></script>
+<script src="jeopardy_refactored.js"></script>
+
+</body>
+
+</html>
