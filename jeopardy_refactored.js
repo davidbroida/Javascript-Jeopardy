@@ -171,6 +171,7 @@ class TriviaGameShow {
   cleanUpAnswer(input = "") {
     let lowerCaseAnswer = input.toLowerCase();
     lowerCaseAnswer = lowerCaseAnswer.replace("a", "");
+    lowerCaseAnswer = lowerCaseAnswer.replace("an", "");
     lowerCaseAnswer = lowerCaseAnswer.replace("the", "");
     lowerCaseAnswer = lowerCaseAnswer.replace("<i>", "");
     lowerCaseAnswer = lowerCaseAnswer.replace("</i>", "");
