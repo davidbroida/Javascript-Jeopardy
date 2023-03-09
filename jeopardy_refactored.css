@@ -47,14 +47,14 @@ body {
 	justify-content: center;
 	font-family: 'Gyparody Hv';
 	vertical-align: center;
-	margin-left: 2rem;
-	margin-right: 2rem;
+	margin-left: 5rem;
+	margin-right: 5rem;
 	top: 50%;
 	background: #222;
 	color: white;
 	font-size: 2vw;
 	text-align: center;
-	padding: 1em;
+	/* padding: 1em; */
 	background: linear-gradient(180deg, #2E2E3A 0%, #0C0C2C 100%);
 }
 
