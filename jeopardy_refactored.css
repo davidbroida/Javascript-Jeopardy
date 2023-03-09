@@ -121,6 +121,17 @@ h1 {
 	border: 5px dotted yellow;
 }
 
+@media screen and (max-width:600px) {
+	#board {
+		display: flex;
+		justify-content: space-around;
+		padding: 0.1rem;
+		border: 2px dotted yellow;
+	}
+}
+
+
+
 #board .column {
 	flex: 1;
 	margin-left: var(--gap);
