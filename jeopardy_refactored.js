@@ -13,7 +13,7 @@ class TriviaGameShow {
     // State
 
     this.currentClue = null;
-    this.score = null;
+    this.score = 0;
 
     this.boardElement = element.querySelector("#board");
     this.scoreCountElement = element.querySelector("#score-count");
@@ -97,7 +97,7 @@ class TriviaGameShow {
           this.clues[clueId] = {
             question: clue.question,
             answer: clue.answer,
-            value: `$${(index + 1) * 100}`
+            value: (index + 1) * 100
           }
         })
         this.categories.push(newCategory);
@@ -109,6 +109,7 @@ class TriviaGameShow {
       })
     })
   }
+
   renderCategory(category) {
     let column = document.createElement("div");
     column.classList.add("column")
