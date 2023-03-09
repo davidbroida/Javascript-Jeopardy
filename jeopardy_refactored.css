@@ -67,10 +67,9 @@ body {
 	body {
 		animation: rotate 2s ease-in;
 		transform: rotate(90deg);
-		/* transition: all 2s; */
+		transition: all 2s;
 	}
 }
-
 
 .top-header {
 	display: flex;
