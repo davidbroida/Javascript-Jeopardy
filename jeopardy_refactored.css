@@ -42,19 +42,14 @@ body {
 
 
 body {
-	display: flex;
-	align-items: center;
-	justify-content: center;
 	font-family: 'Gyparody Hv';
 	vertical-align: center;
-	margin-left: 5rem;
-	margin-right: 5rem;
 	top: 50%;
 	background: #222;
 	color: white;
-	font-size: 2vw;
+	font-size: 1.5vw;
 	text-align: center;
-	/* padding: 1em; */
+	padding: 1em;
 	background: linear-gradient(180deg, #2E2E3A 0%, #0C0C2C 100%);
 }
 
@@ -92,6 +87,10 @@ h1 span {
 	width: 900px;
 }
 
+h1 {
+	font-size: 3.5rem;
+}
+
 .score {
 	display: flex;
 	align-items: center;
@@ -99,7 +98,7 @@ h1 span {
 }
 
 .title2 {
-	/* font-family: 'Gyparody Hv'; */
+	font-size: 10rem;
 }
 
 #score-count {
@@ -118,6 +117,8 @@ h1 span {
 #board {
 	display: flex;
 	justify-content: space-around;
+	padding: 0.1rem;
+	border: 5px dotted yellow;
 }
 
 #board .column {
@@ -283,6 +284,7 @@ h2 #clue-text {
 	font-family: 'Gyparody Hv';
 	font-size: large;
 	border-radius: 3px;
+	margin-bottom: 3rem;
 }
 
 #restart-button button:hover {

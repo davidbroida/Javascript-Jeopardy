@@ -78,6 +78,7 @@ class TriviaGameShow {
           .then(response => response.json()).then(data => {
 
             resolve(data);
+            console.log(categories)
           })
       })
     })
