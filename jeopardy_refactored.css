@@ -47,6 +47,8 @@ body {
 	justify-content: center;
 	font-family: 'Gyparody Hv';
 	vertical-align: center;
+	margin-left: 1rem;
+	margin-right: 1rem;
 	top: 50%;
 	background: #222;
 	color: white;
