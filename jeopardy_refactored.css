@@ -16,6 +16,15 @@
 	font-display: swap;
 }
 
+@font-face {
+	font-family: 'Swiss 911';
+	src: url('fonts/Swiss911BT-Compressed.woff2') format('woff2'),
+		url('fonts/Swiss911BT-Compressed.woff') format('woff');
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
 :root {
 	--blue: linear-gradient(180deg, #0120CB 0%, #011BA9 100%);
 	--yellow: #FFE817;
@@ -37,7 +46,6 @@ body {
 	align-items: center;
 	justify-content: center;
 	height: 100%;
-
 }
 
 
@@ -49,8 +57,8 @@ body {
 	color: white;
 	font-size: 1.5vw;
 	text-align: center;
-	padding: 1em;
-	background: linear-gradient(180deg, #2E2E3A 0%, #0C0C2C 100%);
+	padding: 1rem;
+	background: linear-gradient(180deg, #0101b3 0%, #01015f 100%);
 }
 
 /* @keyframes rotate {
@@ -155,7 +163,6 @@ h1 {
 	color: var(--yellow);
 	height: 3em;
 	margin-bottom: 0.25em;
-	font-family: 'Gyparody Hv';
 }
 
 #board .column button {
@@ -170,6 +177,7 @@ h1 {
 	cursor: pointer;
 	text-shadow: var(--text-shadow);
 	font-weight: bold;
+	font-family: 'Swiss 911';
 }
 
 #board button:hover {
